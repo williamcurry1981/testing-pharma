@@ -10,14 +10,14 @@ const Footer = () => {
     <footer>
       <div className="container">
         <ul className="footer-nav-items">
-          <li onClick={()=>pageScroll("how-operate")}>HOW WE OPERATE</li>
-          <li onClick={()=>pageScroll("contact")}>CONTACT US TO PURCHASE</li>
-          <li onClick={()=>pageScroll("verify-lab-test")}>VERIFY A LAB TEST</li>
+          <li onClick={() => pageScroll("how-operate")}>HOW WE OPERATE</li>
+          <li onClick={() => pageScroll("contact")}>CONTACT US TO PURCHASE</li>
+          <li onClick={() => pageScroll("verify-lab-test")}>VERIFY A LAB TEST</li>
         </ul>
         <div className="footer-img-box" onClick={() => {
-              window.scrollTo(0, 0);
-            }}>
-          <img src={footerImg} alt=""/>
+          window.scrollTo(0, 0);
+        }}>
+          <img src={footerImg} alt="" />
         </div>
         <h5>© TESTING PHARMA {new Date().getFullYear()}</h5>
         <h6>Saavedra 542, Santa Cruz de la Sierra, Bolivia</h6>
