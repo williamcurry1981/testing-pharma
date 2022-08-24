@@ -23,8 +23,9 @@ footer {
 }
 
 .footer-img-box {
-    width: 500px;
+    width: 597px;
     margin: 0 auto;
+    cursor: pointer;
 }
 
 .footer-img-box img {

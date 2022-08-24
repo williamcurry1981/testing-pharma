@@ -3,6 +3,15 @@ nav {
     background-color: var(--white-color);
 }
 
+nav .nav-logo {
+    cursor: pointer;
+    width: 327px;
+}
+
+nav .nav-logo img {
+    width: 100%;
+}
+
 nav .nav-items {
     display: flex;
     align-items: center;
