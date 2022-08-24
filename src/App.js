@@ -4,16 +4,20 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import Spinner from './component/spinner/Spinner';
 
 const Home = React.lazy(() => import('./page/Home'));
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
-    </BrowserRouter>
+    <React.Suspense fallback={Spinner}>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/*" element={<Home />} />
+        </Routes>
+      </BrowserRouter>
+    </React.Suspense>
   )
 }
 

@@ -56,7 +56,7 @@
     bottom: -99px;
     left: 23%;
     opacity: 0;
-    animation: fade 7s ease-in-out;
+    animation: fade 3s ease-in-out;
     display: flex;
     align-items: center;
     justify-content: center;
