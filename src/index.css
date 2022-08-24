@@ -1,13 +1,70 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --primary-color: rgba(0, 185, 242, 0.3);
+  --secondary-color: #00B9F2;
+  --dark-color: #000810;
+  --danger-color: #F20000;
+  --success-color: #00F235;
+  --white-color: #ffff;
+  --font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+}
+input,textarea{
+  outline: none;
+  border: none;
+}
+.container {
+  max-width: 1270px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.align_center {
+  align-items: center;
+}
+
+.justify_between {
+  justify-content: space-between;
+}
+
+.justify_around {
+  justify-content: space-around;
+}
+
+.justify_evenly {
+  justify-content: space-evenly;
+}
+.title {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 83.7175px;
+  background: var(--secondary-color);
+  text-align: center;
+  color: var(--white-color);
+  text-transform: uppercase;
 }

@@ -1,0 +1,111 @@
+.lab-test {
+    margin-top: 50px;
+    position: relative;
+}
+
+.lab-test .container .text-box {
+    background-color: var(--secondary-color);
+    margin-top: 50px;
+}
+
+.lab-test .container .text-box p {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30.7733px;
+    line-height: 38px;
+    text-align: center;
+    color: var(--dark-color);
+    padding: 20px;
+}
+
+.lab-test .container .verify-test {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lab-test .container .verify-test input {
+    width: 50%;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33.2699px;
+    color: var(--dark-color);
+    border: 2px solid var(--secondary-color);
+    border-right: none;
+    padding: 4px 5px;
+}
+
+.lab-test .container .verify-test button {
+    width: 50%;
+    background-color: var(--secondary-color);
+    padding: 6px 0px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33.2699px;
+    color: var(--white-color);
+
+}
+
+.lab-notification {
+    position: absolute;
+    bottom: -99px;
+    left: 23%;
+    opacity: 0;
+    animation: fade 7s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lab-notification-error{
+    bottom: -140px;
+    left: 27%;
+}
+.lab-notification .lab-notify-icon {
+    width: 70px;
+    margin-right: 20px;
+}
+
+.lab-notification .lab-notify-icon img {
+    width: 100%;
+}
+
+.lab-notification h4 {
+    background-color: var(--success-color);
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40.1713px;
+    line-height: 49px;
+    color: var(--white-color);
+    padding: 2px 5px;
+
+}
+
+.lab-notification-error h4 {
+    background-color: var(--danger-color);
+    width: 79.8%;
+    padding: 10px;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    75% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

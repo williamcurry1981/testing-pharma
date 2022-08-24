@@ -1,0 +1,21 @@
+nav {
+    padding: 10px 0px;
+    background-color: var(--white-color);
+}
+
+nav .nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 60px;
+}
+
+nav .nav-items li {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20.8028px;
+    line-height: 25px;
+    text-align: center;
+    cursor: pointer;
+}

@@ -1,0 +1,55 @@
+.banner {
+    width: 100%;
+    height: 100vh;
+    background: url("../../../assets/factory-worker.png") no-repeat center center;
+    background-size: cover;
+    position: relative;
+    padding-top: 20px;
+}
+.banner:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.banner .content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    position: relative;
+    z-index: 2;
+}
+
+.banner .content p {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39.3311px;
+    text-align: center;
+    color: var(--white-color);
+}
+
+.banner .content .msg-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+    padding-top: 50px;
+}
+
+.banner .content .msg-button button {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21.9678px;
+    line-height: 27px;
+    text-align: center;
+    color: var(--white-color);
+    background-color: var(--secondary-color);
+    padding: 10px 0px;
+    width: 337.06px;
+}

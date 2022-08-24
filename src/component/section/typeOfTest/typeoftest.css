@@ -1,0 +1,38 @@
+.type-of-test {
+    position: relative;
+    overflow: hidden;
+}
+.test-container{
+    padding: 30px;
+}
+
+.test-card{
+    width: 750px;
+    padding: 20px 10px;
+}
+.card-absloute{
+    position: absolute;
+    top: 34%;
+    left: 48%;
+}
+.test-card h2 {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 71.7165px;
+    line-height: 87px;
+    text-align: center;
+    color: var(--dark-color);
+}
+
+.test-card .img-box {
+    width: 484.06px;
+    height: 484.06px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.test-card .img-box img {
+    width: 100%;
+    height: 100%;
+}
