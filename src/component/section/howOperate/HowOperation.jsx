@@ -9,13 +9,17 @@ import photo5 from '../../../assets/5.png';
 
 const HowOperation = () => {
     return (
-        <section>
+        <section id="how-operate" className='operation'>
+            <div className="operate-title">
+                <h2>HOW WE OPERATE</h2>
+                <h4>FAST. EFFICIENT. SAFE.</h4>
+            </div>
             <div className="container">
-                <OperateCard url={photo1} text={"Before paying anything, send us your sample of what you need tested. Include your secondary fors of contact inside the box as well."} direction={false} stepNumber={1}/>
-                <OperateCard url={photo2} text={"After the sample is recieved on our end, we will send you an email for confirmation. We will connect with you to discuss all sample types that you want."} direction={true} stepNumber={2}/>
-                <OperateCard url={photo3} text={"A follow-up email will be sent to you with payment confirmation. In this email an invoice will be attached. This is when you will be prompted to pay."} direction={false} stepNumber={3}/>
-                <OperateCard url={photo4} text={"After payment is recieved, your position will be added to the queue. During this time period we will prepare and then perform tests based on which ones were ordered."} direction={true} stepNumber={4}/>
-                <OperateCard url={photo5} text={`Results will then be sent to you via email. You can check the validity of these results on this website.<br/><br/> All results can be verified. If the ORDER NUMBER at the top of the document does not show verified when checked on our website, IT IS FAKE!`} direction={false} stepNumber={5}/>
+                <OperateCard url={photo1} text={"Before paying anything, send us your sample of what you need tested. Include your secondary fors of contact inside the box as well."} direction={false} stepNumber={1} />
+                <OperateCard url={photo2} text={"After the sample is recieved on our end, we will send you an email for confirmation. We will connect with you to discuss all sample types that you want."} direction={true} stepNumber={2} />
+                <OperateCard url={photo3} text={"A follow-up email will be sent to you with payment confirmation. In this email an invoice will be attached. This is when you will be prompted to pay."} direction={false} stepNumber={3} />
+                <OperateCard url={photo4} text={"After payment is recieved, your position will be added to the queue. During this time period we will prepare and then perform tests based on which ones were ordered."} direction={true} stepNumber={4} />
+                <OperateCard url={photo5} text={`Results will then be sent to you via email. You can check the validity of these results on this website.<br/><br/> All results can be verified. If the ORDER NUMBER at the top of the document does not show verified when checked on our website, IT IS FAKE!`} direction={false} stepNumber={5} />
             </div>
         </section>
     )

@@ -7,7 +7,7 @@ const Contact = () => {
         setNotify(!notify)
     }
     return (
-        <section className="contact">
+        <section id="contact" className="contact">
             <h2 className="title">Contact</h2>
             <form onSubmit={handleSubmit} className="container form-container">
                 <div className="email-input-box">

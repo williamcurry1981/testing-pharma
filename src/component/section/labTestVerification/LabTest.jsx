@@ -10,7 +10,7 @@ const LabTest = () => {
         setNotification(401)
     }
     return (
-        <section className="lab-test">
+        <section id="verify-lab-test" className="lab-test">
             <h2 className="title">
                 VERIFY A LAB TEST HERE
             </h2>
