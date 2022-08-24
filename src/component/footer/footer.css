@@ -8,12 +8,47 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: 30px 0px;
+}
+
+.footer-nav-items li {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20.8028px;
+    line-height: 25px;
+    text-align: center;
+    color: #000810;
+    cursor: pointer;
 }
 
 .footer-img-box {
     width: 500px;
     margin: 0 auto;
 }
-.footer-img-box img{
+
+.footer-img-box img {
     width: 100%;
+}
+
+footer h5 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20.8028px;
+    line-height: 25px;
+    text-align: center;
+    color: #000810;
+}
+
+footer h6 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.9293px;
+    line-height: 19px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    color: #000810;
 }

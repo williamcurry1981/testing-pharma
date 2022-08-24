@@ -14,8 +14,8 @@ const Footer = () => {
         <div className="footer-img-box">
           <img src={footerImg} alt=""/>
         </div>
-        <p>© TESTING PHARMA 2022</p>
-        <p>Saavedra 542, Santa Cruz de la Sierra, Bolivia</p>
+        <h5>© TESTING PHARMA 2022</h5>
+        <h6>Saavedra 542, Santa Cruz de la Sierra, Bolivia</h6>
       </div>
     </footer>
   )
