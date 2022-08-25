@@ -62,7 +62,7 @@
 .step-number {
     width: 175px;
     height: 175px;
-    background-color: #000810;
+    background-color: var(--dark-color);
     position: absolute;
     display: flex;
     align-items: center;
@@ -80,10 +80,10 @@
 }
 
 .step-number span {
-    font-family: 'Montserrat';
+    font-family: var(--font-family);
     font-style: normal;
     font-weight: 900;
     font-size: 104px;
     text-align: center;
-    color: #FFFFFF;
+    color: var(--white-color);
 }

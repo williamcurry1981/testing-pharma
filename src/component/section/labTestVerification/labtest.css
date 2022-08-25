@@ -58,7 +58,7 @@
 
 .lab-notification {
     position: absolute;
-    bottom: -99px;
+    bottom: 35px;
     left: 23%;
     opacity: 0;
     animation: fade 3s ease-in-out;
@@ -67,7 +67,7 @@
     justify-content: center;
 }
 .lab-notification-error{
-    bottom: -140px;
+    bottom: 25px;
     left: 27%;
 }
 .lab-notification .lab-notify-icon {

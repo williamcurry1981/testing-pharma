@@ -70,9 +70,10 @@ input, textarea {
 .section-title {
   width: 100%;
   height: auto;
-  background: #00B9F2;
+  background: var(--secondary-color);
   padding: 16px 0px 16px;
   text-align: center;
+  text-transform: uppercase;
 }
 .section-title .title{
   font-family: var(--font-family);
