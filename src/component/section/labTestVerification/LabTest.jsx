@@ -47,7 +47,7 @@ const LabTest = () => {
                         <div className="lab-notify-icon">
                             <img src={successIcon} alt="" />
                         </div>
-                        <h4>THIS LAB TEST IS 2022 VERIFIED FOR CUSTOMER “AUCTUS PHARMA GROUP”</h4>
+                        <h4>{`THIS LAB TEST IS 2022 VERIFIED FOR CUSTOMER “AUCTUS PHARMA GROUP”`}</h4>
                     </div>}
                     {msg === 401 && <div className="lab-notification lab-notification-error">
                         <div className="lab-notify-icon">
