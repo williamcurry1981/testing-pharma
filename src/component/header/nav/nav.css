@@ -120,3 +120,8 @@ nav .nav-items li {
         width: 265px;
     }
 }
+@media (max-width:350px) {
+    nav .nav-logo {
+        width: 200px;
+    }
+}
