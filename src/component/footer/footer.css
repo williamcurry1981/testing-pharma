@@ -57,3 +57,45 @@ footer h6 {
     padding-top: 5px;
     color: #000810;
 }
+@media (max-width:1199px) and (min-width:992px) {
+    .footer-img-box {
+        width: 445px;
+    }
+}
+@media (max-width:991px) and (min-width:768px)  {
+    .footer-img-box {
+        width: 350px;
+        margin-bottom: 10px;
+    }
+    footer h5 {
+        font-size: 17px;
+        line-height: 22px;
+    }
+    .footer-nav-items li {
+        font-size: 17px;
+        line-height: 22px;
+    }
+    footer.footer-section {
+        padding: 30px 0 29px;
+    }
+}
+@media (max-width:767px)  {
+    .footer-img-box {
+        width: 230px;
+        margin-bottom: 10px;
+    }
+    footer h5 {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .footer-nav-items li {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    footer h6 {
+        font-size: 12px;
+    }
+    footer.footer-section {
+        padding: 23px 0 29px;
+    }
+}
