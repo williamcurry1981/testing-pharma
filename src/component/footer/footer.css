@@ -13,6 +13,7 @@ footer.footer-section {
     align-items: center;
     justify-content: space-around;
     margin: 0px 0px 23px;
+    flex-wrap: wrap;
 }
 
 .footer-nav-items li {
@@ -89,8 +90,9 @@ footer h6 {
         line-height: 19px;
     }
     .footer-nav-items li {
-        font-size: 14px;
+        font-size: 13px;
         line-height: 19px;
+        padding-bottom: 12px;
     }
     footer h6 {
         font-size: 12px;
@@ -98,4 +100,5 @@ footer h6 {
     footer.footer-section {
         padding: 23px 0 29px;
     }
+
 }
