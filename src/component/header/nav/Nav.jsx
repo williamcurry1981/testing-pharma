@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './nav.css'
-import Logo from '../../../assets/testing_pharma.svg';
+import Logo from '../../../assets/testing_pharma.png';
 import { pageScroll } from '../../../Utils/PageScroll';
 import openIcon from '../../../assets/open_menu.svg';
 import closeIcon from '../../../assets/close_menu.svg';
