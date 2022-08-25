@@ -56,5 +56,47 @@
     color: var(--white-color);
     background-color: var(--secondary-color);
     padding: 10px 0px;
-    width: 337.06px;
+    max-width: 337.06px;
+    width: 100%;
+}
+@media (max-width:991px) {
+    .banner .content {
+        padding-bottom: 103px;
+    }
+    .banner {
+        min-height: 590px;
+    }
+    .banner .content p {
+        font-size: 32px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .banner .content .msg-button button {
+	font-size: 18px;
+	line-height: 22px;
+	max-width: 299.06px;
+}
+}
+@media (max-width:767px) {
+    .banner .content p {
+        font-size: 22px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .banner .content .msg-button {
+        display: block;
+        text-align: center;
+    }
+    .banner .content .msg-button button:first-child{
+        margin-bottom: 15px;
+    }
+}
+@media (max-width:350px) {
+    .banner .content p {
+        font-size: 20px;
+    }
+    .banner .content .msg-button button {
+        font-size: 15px;
+        max-width: 285px;
+    }
 }
