@@ -1,9 +1,9 @@
-nav.header-navbar {
+nav .header-navbar {
     padding: 0px;
     background-color: var(--white-color);
     position: fixed;
     top: 0;
-    z-index: 99;
+    z-index: 999;
     left: 0;
     width: 100%;
     height: 81px;
@@ -11,14 +11,32 @@ nav.header-navbar {
 .header-nav-wrapper {
 	height: 81px;
 }
+
 nav .nav-logo {
 	cursor: pointer;
 	width: 200px;
 	padding-bottom: 0;
 	padding-top: 15px;
+
+
+nav .nav-container .header-nav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-nav .nav-logo img {
+
+.nav-logo-wrapper .nav-logo img {
+    width: 100%;
+}
+
+.nav-logo-wrapper .hamgur-bar {
+    width: 5%;
+    height: 5%;
+    display: none;
+}
+
+.nav-logo-wrapper .hamgur-bar img {
     width: 100%;
 }
 
@@ -39,6 +57,7 @@ nav .nav-items li {
     text-align: center;
     cursor: pointer;
 }
+
 
 @media (min-width:992px) {
     nav .nav-items li {
@@ -85,7 +104,80 @@ nav .nav-items li {
         background: #fff;
         left: 0;
     }
+}
+@media (min-width:1000px) and (max-width:1210px) {
+    .nav-logo-wrapper .nav-logo {
+        max-width: 300px;
+    }
+
     nav .nav-items li {
-        padding: 7px 0;
+     padding: 7px 0;
+        font-size: 19px;
+    }
+}
+
+@media (max-width:979px) {
+    nav .nav-container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    nav .nav-container .header-nav-wrapper {
+        display: block;
+    }
+
+    nav .nav-logo-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0px 20px;
+    }
+
+    .nav-logo-wrapper .hamgur-bar {
+        display: block;
+    }
+
+    nav .nav-items {
+        display: block;
+        background-color: var(--white-color);
+        transition: all .5s ease-in-out;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        bottom: 560px;
+        z-index: 4;
+        overflow: hidden;
+        width: 100%;
+
+    }
+
+    nav .nav-items-active {
+        bottom: 0px;
+    }
+
+    nav .nav-items li {
+        margin: 70px 90px;
+        text-align: start;
+    }
+}
+
+
+@media (max-width:425px) {
+    .nav-logo-wrapper .nav-logo {
+        cursor: pointer;
+        max-width: 270px;
+        width: 100%;
+        padding-bottom: 16px;
+    }
+
+    .nav-logo-wrapper .hamgur-bar {
+        width: 9%;
+        height: 9%;
+    }
+
+    nav .nav-items li {
+        font-size: 17px;
+
     }
 }
