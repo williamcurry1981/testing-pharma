@@ -1,7 +1,7 @@
-.contact {}
-
 .form-container {
-    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 144px;
+
 }
 
 .email-input-box,
@@ -43,14 +43,16 @@
 }
 
 .form-container .submit-button button {
-    font-family: var(--font-family);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 21.9678px;
-    text-align: center;
-    color: var(--white-color);
-    background-color: var(--secondary-color);
-    padding: 10px 60px;
+	font-family: var(--font-family);
+	font-style: normal;
+	font-weight: 700;
+	font-size: 21.9678px;
+	text-align: center;
+	color: var(--white-color);
+	background-color: var(--secondary-color);
+	padding: 10px 60px;
+	max-width: 337px;
+	width: 100%;
 }
 
 .message-input-box {

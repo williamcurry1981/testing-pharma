@@ -7,8 +7,9 @@ const Footer = () => {
 
 
   return (
-    <footer>
+    <footer className='footer-section'>
       <div className="container">
+        <div className="footer-wrapper">
         <ul className="footer-nav-items">
           <li onClick={() => pageScroll("how-operate")}>HOW WE OPERATE</li>
           <li onClick={() => pageScroll("contact")}>CONTACT US TO PURCHASE</li>
@@ -21,6 +22,7 @@ const Footer = () => {
         </div>
         <h5>© TESTING PHARMA {new Date().getFullYear()}</h5>
         <h6>Saavedra 542, Santa Cruz de la Sierra, Bolivia</h6>
+      </div>
       </div>
     </footer>
   )

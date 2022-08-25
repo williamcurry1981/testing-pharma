@@ -1,71 +1,67 @@
-.operate-title {
-    width: 100%;
-    height: auto;
-    background: #00B9F2;
-    padding: 40px 0px ;
-    text-align: center;
+.section-title.operate-title {
+    padding: 5px 0px 24px;
 }
-
-.operate-title h2 {
-    font-family: var(--font-family);
-    color: var(--white-color);
-    font-style: normal;
-    font-weight: 900;
-    font-size: 83.7175px;
-}
-
-.operate-title h4 {
-    font-style: normal;
-    font-family: var(--font-family);
-    color: var(--white-color);
-    font-weight: 500;
-    font-size: 43.2934px;
-    letter-spacing: 0.4em;
+.operetion-wrapperbox{
+    position: relative;
+    padding: 58px 0 126px;
 }
 .operate-card {
     display: flex;
     background-color: var(--primary-color);
-    margin: 50px 20px;
-    padding: 20px 20px;
+    padding: 26px 49px 20px 46px;
+    min-height: 420px;
     position: relative;
 }
-
+.operate-card:not(:last-child){
+    margin-bottom: 58px;
+}
+.operate-card:nth-child(3) .card-content{
+    padding-left: 182px;
+}
+.operate-card:nth-child(4) .card-content{
+    padding-right: 116px;
+}
+.operate-card:nth-child(5) .card-content{
+    padding-left: 182px;
+}
+.card-content.left-to-right{
+    padding-right: 182px;
+}
 .operate-card .card-content {
-    display: flex;
-    align-items: center;
-    width: 80%;
-    margin: 0 auto;
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+	justify-content: space-between;
+	width: 100%;
 }
 
 .operate-card .left-to-right {
     flex-direction: row-reverse;
 }
 
-.image-box {
-    width: 30%;
-    padding: 0px 30px;
+.operetion-wrapperbox .operate-card:first-child .image-box {
+    max-width: 509px;
+    width: 100%;
 }
 
 .image-box img {
     width: 100%;
 }
 
-.card-content .description {
-    width: 70%;
-}
-
 .card-content .description p {
-    font-family:var(--font-family);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 39.3311px;
-    text-align: center;
-    color: var(--dark-color);
+	font-family: var(--font-family);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 34px;
+	text-align: center;
+	color: var(--dark-color);
+	max-width: 635px;
+	margin: 0 auto;
 }
 
 .step-number {
-    width: 100px;
-    height: 100px;
+    width: 175px;
+    height: 175px;
     background-color: #000810;
     position: absolute;
     display: flex;
@@ -87,7 +83,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 900;
-    font-size: 60px;
+    font-size: 104px;
     text-align: center;
     color: #FFFFFF;
 }

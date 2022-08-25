@@ -9,7 +9,6 @@ const OperateCard = ({ url, text, direction, stepNumber }) => {
                 </div>
                 <div className="description">
                     <p dangerouslySetInnerHTML={{__html:text}}></p>
-                    
                 </div>
             </div>
             <div className={`step-number ${direction ? "step-number-left-to-right" : "step-number-default"}`}>

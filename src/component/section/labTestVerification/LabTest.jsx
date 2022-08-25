@@ -29,9 +29,12 @@ const LabTest = () => {
     }
     return (
         <section id="verify-lab-test" className="lab-test">
-            <h2 className="title">
-                VERIFY A LAB TEST HERE
-            </h2>
+          <div className="section-title">
+              <div className="container">
+                  <h2 className="title">VERIFY A LAB TEST HERE</h2>
+              </div>
+          </div>
+          <div className="labTest-content-wrapper">
             <div className="container">
                 <div className="text-box">
                     <p>Copy the ORDER NUMBER (seen in the top left part of the lab test) in the area below. Then click the “VERIFY LAB TEST” button. A verified or rejected message will be shown. All information on this website is directly connected to our database. If you believe there is an error, you may contact us. For new lab tests, allow up to 24 hours after test results have been emailed for it to properly verify on the website.</p>
@@ -52,6 +55,7 @@ const LabTest = () => {
                     </div>
                     <h4>{`THE ORDER NUMBER IS REJECTED. THIS DOESN’T EXIST.`}</h4>
                 </div>}
+            </div>
             </div>
         </section>
     )
