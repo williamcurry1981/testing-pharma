@@ -11,6 +11,7 @@
   --danger-color: #F20000;
   --success-color: #00F235;
   --white-color: #ffff;
+
   --font-family: 'Montserrat', sans-serif;
 }
 
@@ -39,9 +40,9 @@ input, textarea {
 }
 
 .container {
-  max-width: 1270px;
-  padding-left: 15px;
-  padding-right: 15px;
+  max-width: 1310px;
+  padding-left: 30px;
+  padding-right: 30px;
   margin: 0 auto;
 }
 
@@ -65,13 +66,26 @@ input, textarea {
   justify-content: space-evenly;
 }
 
-.title {
-  font-family: var(--font-family);
-  font-style: normal;
-  font-weight: 900;
-  font-size: 83.7175px;
-  background: var(--secondary-color);
+
+.section-title {
+  width: 100%;
+  height: auto;
+  background: #00B9F2;
+  padding: 16px 0px 16px;
   text-align: center;
+}
+.section-title .title{
+  font-family: var(--font-family);
+    color: var(--white-color);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 83.7175px;
+}
+.section-title .sub-title{
+  font-style: normal;
+  font-family: var(--font-family);
   color: var(--white-color);
-  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 43.2934px;
+  letter-spacing: 0.4em;
 }

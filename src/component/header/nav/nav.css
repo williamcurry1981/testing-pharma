@@ -1,11 +1,19 @@
-nav {
-    padding: 10px 0px;
+nav.header-navbar {
+    padding: 0px;
     background-color: var(--white-color);
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    left: 0;
+    width: 100%;
+    height: 98px;
 }
 
 nav .nav-logo {
-    cursor: pointer;
-    width: 327px;
+	cursor: pointer;
+	max-width: 327px;
+	width: 100%;
+	padding-bottom: 16px;
 }
 
 nav .nav-logo img {

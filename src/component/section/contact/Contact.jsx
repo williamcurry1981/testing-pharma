@@ -22,9 +22,13 @@ const Contact = () => {
 
     return (
         <section id="contact" className="contact">
-            <h2 className="title">Contact</h2>
+            <div className="section-title">
+                <div className="container">
+                <h2 className="title">Contact</h2>
+                </div>
+            </div>
             <form ref={form} onSubmit={handleSubmit} className="container form-container">
-                <input hidden name='to_name' type="text" value="Testing Pharma" />
+                <input hidden name='to_name' type="text" value="Testing-Pharma" />
                 <div className="email-input-box">
                     <h4>Email</h4>
                     <input name='user_email' type="email" required placeholder='Type Your Email Here' />

@@ -1,10 +1,11 @@
 .banner {
     width: 100%;
-    height: 100vh;
+    min-height: 685px;
+    height: 100%;
     background: url("../../../assets/factory-worker.png") no-repeat center center;
     background-size: cover;
     position: relative;
-    padding-top: 20px;
+    padding-top: 98px;
 }
 .banner:before {
     content: "";
@@ -14,12 +15,14 @@
     top: 0;
     left: 0;
     right: 0;
+    width: 100%;
+    height: 100%;
 }
 .banner .content {
     display: flex;
     flex-direction: column;
-    padding-top: 100px;
-    padding-bottom: 150px;
+    padding-top: 60px;
+    padding-bottom: 220px;
     position: relative;
     z-index: 2;
 }
@@ -31,6 +34,8 @@
     font-size: 39.3311px;
     text-align: center;
     color: var(--white-color);
+    margin: 0 auto;
+    max-width: 959px;
 }
 
 .banner .content .msg-button {

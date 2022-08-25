@@ -6,9 +6,15 @@ import img2 from '../../../assets/t2.png';
 import img3 from '../../../assets/t3.png';
 
 const TypeOfTest = () => {
-    return (
-        <section className="type-of-test">
-            <h2 className='title'>WHAT TYPES OF TESTS?</h2>
+return (
+<section className="type-of-test">
+    <div className="type-of-test-wrapper">
+        <div className="section-title">
+            <div className="container">
+                <h2 className='title'>WHAT TYPES OF TESTS?</h2>
+            </div>
+        </div>
+        <div className="typeOf-test-content-wrapper">
             <div className="container">
                 <div className="test-container">
                     <Card postion={false} title="LIQUIDS/SOLVENTS" img={img1} />
@@ -16,8 +22,10 @@ const TypeOfTest = () => {
                     <Card postion={false} title="TABLETS" img={img3} />
                 </div>
             </div>
-        </section>
-    )
+        </div>
+    </div>
+</section>
+)
 }
 
 export default TypeOfTest
