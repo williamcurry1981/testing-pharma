@@ -42,9 +42,9 @@ const Contact = () => {
                     <textarea name='notes' cols="30" rows="10" required placeholder='Type Full Message or Inquiry Here'></textarea>
                     {notify &&
                         <div className="notification">
-                            <h4>
+                            <p>
                                 Your message has been submitted. We will get back to you shortly.
-                            </h4>
+                            </p>
                         </div>
                     }
                 </div>

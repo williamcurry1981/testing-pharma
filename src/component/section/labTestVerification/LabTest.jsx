@@ -47,13 +47,13 @@ const LabTest = () => {
                         <div className="lab-notify-icon">
                             <img src={successIcon} alt="" />
                         </div>
-                        <h4>{`THIS LAB TEST IS 2022 VERIFIED FOR CUSTOMER “AUCTUS PHARMA GROUP”`}</h4>
+                        <p>{`THIS LAB TEST IS 2022 VERIFIED FOR CUSTOMER “AUCTUS PHARMA GROUP”`}</p>
                     </div>}
                     {msg === 401 && <div className="lab-notification lab-notification-error">
                         <div className="lab-notify-icon">
                             <img src={errIcon} alt="" />
                         </div>
-                        <h4>{`THE ORDER NUMBER IS REJECTED. THIS DOESN’T EXIST.`}</h4>
+                        <p>{`THE ORDER NUMBER IS REJECTED. THIS DOESN’T EXIST.`}</p>
                     </div>}
                 </div>
             </div>

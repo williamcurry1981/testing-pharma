@@ -43,16 +43,16 @@
 }
 
 .form-container .submit-button button {
-	font-family: var(--font-family);
-	font-style: normal;
-	font-weight: 700;
-	font-size: 21.9678px;
-	text-align: center;
-	color: var(--white-color);
-	background-color: var(--secondary-color);
-	padding: 10px 60px;
-	max-width: 337px;
-	width: 100%;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21.9678px;
+    text-align: center;
+    color: var(--white-color);
+    background-color: var(--secondary-color);
+    padding: 10px 60px;
+    max-width: 337px;
+    width: 100%;
 }
 
 .message-input-box {
@@ -61,21 +61,24 @@
 
 .notification {
     position: absolute;
-    background-color: var(--success-color);
     top: 50%;
-    left: 19%;
     opacity: 0;
+    width: 100%;
+    text-align: center;
     animation: fade 3s ease-in-out;
 }
 
-.notification h4 {
+.notification p {
     font-family: var(--font-family);
     font-style: normal;
     font-weight: 700;
     font-size: 21.9678px;
     text-align: center;
     color: var(--white-color);
-    padding: 0px 10px;
+    padding: 10px 5px;
+    background-color: var(--success-color);
+    width: 80%;
+    margin: auto;
 }
 
 @keyframes fade {
@@ -86,54 +89,72 @@
     25% {
         opacity: 1;
     }
+
     75% {
         opacity: 1;
     }
+
     100% {
         opacity: 0;
     }
 }
+
 @media (max-width:1280px) {
+
     .email-input-box h4,
-.subject-input-box h4,
-.message-input-box h4 {
-    font-size: 34px;
-    line-height: 44px;
-}
-.email-input-box input,
-.subject-input-box input,
-.message-input-box textarea {
-    font-size: 27px;
-}
-}
-@media (max-width:1199px) {
-    .email-input-box h4,
-.subject-input-box h4,
-.message-input-box h4 {
-    font-size: 28px;
-    line-height: 36px;
-}
-.form-container {
-	padding-top: 50px;
-	padding-bottom: 65px;
-}
-.email-input-box input,
-.subject-input-box input,
-.message-input-box textarea {
-    font-size: 24px;
-}
-}
-@media (max-width:767px) {
-    .email-input-box h4,
-.subject-input-box h4,
-.message-input-box h4 {
-    font-size: 24px;
-    line-height: 28px;
-}
-.email-input-box input,
-.subject-input-box input,
-.message-input-box textarea {
-    font-size: 18px;
+    .subject-input-box h4,
+    .message-input-box h4 {
+        font-size: 34px;
+        line-height: 44px;
+    }
+
+    .email-input-box input,
+    .subject-input-box input,
+    .message-input-box textarea {
+        font-size: 27px;
+    }
 }
 
+@media (max-width:1199px) {
+
+    .email-input-box h4,
+    .subject-input-box h4,
+    .message-input-box h4 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .form-container {
+        padding-top: 50px;
+        padding-bottom: 65px;
+    }
+
+    .email-input-box input,
+    .subject-input-box input,
+    .message-input-box textarea {
+        font-size: 24px;
+    }
+}
+
+@media (max-width:767px) {
+
+    .email-input-box h4,
+    .subject-input-box h4,
+    .message-input-box h4 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .email-input-box input,
+    .subject-input-box input,
+    .message-input-box textarea {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width:425px){
+    .notification p {
+        font-size: 17px;
+    }
 }
