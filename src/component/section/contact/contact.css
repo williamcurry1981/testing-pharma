@@ -93,3 +93,47 @@
         opacity: 0;
     }
 }
+@media (max-width:1280px) {
+    .email-input-box h4,
+.subject-input-box h4,
+.message-input-box h4 {
+    font-size: 34px;
+    line-height: 44px;
+}
+.email-input-box input,
+.subject-input-box input,
+.message-input-box textarea {
+    font-size: 27px;
+}
+}
+@media (max-width:1199px) {
+    .email-input-box h4,
+.subject-input-box h4,
+.message-input-box h4 {
+    font-size: 28px;
+    line-height: 36px;
+}
+.form-container {
+	padding-top: 50px;
+	padding-bottom: 65px;
+}
+.email-input-box input,
+.subject-input-box input,
+.message-input-box textarea {
+    font-size: 24px;
+}
+}
+@media (max-width:767px) {
+    .email-input-box h4,
+.subject-input-box h4,
+.message-input-box h4 {
+    font-size: 24px;
+    line-height: 28px;
+}
+.email-input-box input,
+.subject-input-box input,
+.message-input-box textarea {
+    font-size: 18px;
+}
+
+}

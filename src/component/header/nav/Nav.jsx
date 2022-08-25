@@ -1,6 +1,6 @@
 import React from 'react'
 import './nav.css'
-import Logo from '../../../assets/testing_pharma.png';
+import Logo from '../../../assets/testing_pharma.svg';
 import { pageScroll } from '../../../Utils/PageScroll';
 
 
